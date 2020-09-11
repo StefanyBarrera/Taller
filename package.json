@@ -1,0 +1,23 @@
+{
+  "name": "libro_notas_nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^1.19.4"
+  },
+  "description": "this is a Online Books Application to put in practice your basic Node knowledge",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": ""
+}

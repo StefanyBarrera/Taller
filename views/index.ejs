@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Agenda Telefónica</title>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style1.css">
+
+
+
+
+</head>
+<script src="/js/script.js"></script>
+<body background="/reosurces/img/imag4.jpg" >
+
+<div class="container box">
+  <h1 class="display-4 titulo">AGENDA TELEFONICA</h1>
+  <form>
+    <div class="container box-content " >
+
+      <input type="button" class="btn btn-light" value="Agregar Contacto" name="B1" OnClick="location.href='http://d8696492c2b2.ngrok.io/add'">
+      <input type="button" class="btn btn-light"value="Actualizar Contacto" name="B2" OnClick="location.href='http://d8696492c2b2.ngrok.io/Actualizar'">
+      <input type="button"  class="btn btn-light"value="Eliminar Contacto" name="B3" OnClick="location.href='http://d8696492c2b2.ngrok.io/delete'">
+      <input type="button"  class="btn btn-light"value="Enviar Archivo JSON" name="B4" OnClick="location.href='http://fe32b853afa4.ngrok.io/subir'">
+      <input type="button"  class="btn btn-light"value="Enviar Archivo TEXTO" name="B5" OnClick="location.href='http://31707218c723.ngrok.io /subir'">
+      <input type="button"  class="btn btn-light"value="Descargar JSON Enviado" name="B5" OnClick="location.href='http://fe32b853afa4.ngrok.io'">
+
+
+
+      <p></p>
+      <input type="button"  class="btn btn-light"value="Descargar TEXTO Enviado" name="B5" OnClick="location.href='http://31707218c723.ngrok.io '">
+      <a href="/descargar/conacts.json" class="btn btn-light">Descargar Datos en JSON</a>
+      <a href="/descargar/contacts.txt" class="btn btn-light">Descargar Copia de Datos</a>
+
+
+
+
+
+    </div>
+    <br>
+    <div class="container box-content">
+      <table   class="table-responsive">
+
+        <thead >
+        <tr>
+          <th  > Nombre </th>
+          <th > Organización </th>
+          <th > Tipo de Celular </th>
+          <th>Número Telefónico</th>
+          <th  > Tipo de Correo </th>
+          <th > Correo </th>
+          <th  > Dirección   </th>
+          <th > Fecha de Cumpleaños </th>
+          <th > Relación  </th>
+        </tr >
+
+
+        </thead>
+        <% contacts.forEach(function(contact) { %>
+
+          <tr>
+            <td> <%= contact.nombre%></td>
+            <td><%= contact.organizacion%></td>
+            <td><%= contact.cel%></td>
+            <td><%= contact.numCel%></td>
+            <td><%= contact.correo%></td>
+            <td><%= contact.mail%></td>
+            <td><%= contact.direccion%></td>
+            <td><%= contact.fecha%></td>
+            <td><%= contact.relacion%></td>
+          </tr>
+        <%})%>
+        <tbody id="tblBody">
+
+        </tbody>
+
+      </table>
+    </div>
+
+
+  </form>
+</div>
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

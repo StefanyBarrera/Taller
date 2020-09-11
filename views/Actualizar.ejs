@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Actualizar</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body background="/reosurces/img/imag4.jpg" >
+<div class="container box">
+
+
+    <form method="POST" action="/Actualizar" class="card card-body">
+
+        <div class="container box-content form-group col-12 col-sm-10" style="text-align: left">
+            <div class="form-group row">
+
+
+
+
+                <label class="col-form-label col-sm-3" for="nombre">Nombre</label>
+                <input type="text" name="nombre" class="form-control col-sm-9" id="nombre"  placeholder="Ingrese el Nombre" autofocus required>
+            </div>
+
+            <div class="form-row">
+
+                <div class="form-group col-sm">
+                    <label for="organizacion" class="col-form-label">Organización</label>
+                    <input type="text" id="organizacion" name="organizacion" class="form-control"placeholder="Ingrese la Organización" autofocus required>
+                </div>
+
+
+                <div class="form-group col-sm">
+                    <label for="numCel" class="col-form-label">  Numero de Celular</label>
+                    <input type="number" id="numCel" class="form-control"name="numCel" placeholder="Ingrese el Número" autofocus required>
+                </div>
+            </div>
+            <div class="form-group col-sm">
+                <label  for="cel">Tipo de Celular</label><br>
+                <select  class="form-control" id="cel" name="cel">
+                    <option disabled selected>Selecionar...</option>
+                    <option value="celular">Celular</option>
+                    <option value="laboral">Laboral</option>
+                    <option value="particular">Particular</option>
+                    <option value="principal ">Principal</option>
+                    <option value="faxLaboral">Fax Laboral</option>
+                    <option value="faxPersonal">Fax Personal</option>
+                    <option value="localizador">Localizador</option>
+                    <option value="personalizado">Personalizado</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+            </div>
+            <div class="col-sm">
+                <label  for="correo">Tipo de Correo</label><br>
+                <select  class="form-control" id="correo" name="correo">
+                    <option disabled selected>Selecionar...</option>
+                    <option value="particular">Particular</option>
+                    <option value="laboral">Laboral</option>
+                    <option value="personalizado">Personalizado</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-sm">
+                    <label class="col-form-label col-sm" for="mail">Correo<br>
+                        <input type="text" name="mail" id="mail" class="form-control" placeholder="Ingrese el Correo" autofocus required>
+                    </label>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="form-group col-sm">
+                    <label for="direccion" class="col-form-label">Dirección</label>
+                    <input type="text" id="direccion" class="form-control"  name="direccion" placeholder="Ingrese la Dirección" autofocus required>
+
+                </div>
+
+                <div class="form-group col-sm">
+                    <label for="fecha" class="col-form-label">Cumpleaños</label>
+                    <input type="date" id="fecha" class="form-control"name="fecha"  placeholder="Fecha Cumpleaños" autofocus required>
+
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3" for="relacion">Relacion</label>
+                <input type="text" class="form-control col-sm-9" id="relacion" name="relacion" placeholder="Relación que Tiene con el Contacto" autofocus required>
+
+            </div>
+
+        </div>
+        <input type="submit" onsubmit="return validation()" value="Actualizar Contacto"class="btn btn-primary btn-lg btn-block" >
+
+
+        <input type="button" class="btn btn-success btn-lg btn-block"value="Volver" name="B1" OnClick="location.href='http://d8696492c2b2.ngrok.io'">
+
+    </form>
+    <script>
+        alert("Debe Ingresar Todos los campos")
+        function validation(){
+        valor = document.getElementById("nombre").value;
+        if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
+            return false;
+        }
+        }
+
+    </script>
+</div>
+<script src="js/script.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

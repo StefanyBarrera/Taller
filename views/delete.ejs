@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Eliminar</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body background="/reosurces/img/imag4.jpg" >
+<div class="container box">
+
+    <form method="POST" action="/delete" class="card card-body">
+
+        <div class="container box-content form-group col-12 col-sm-10" style="text-align: left">
+
+
+
+
+
+            <div class="form-row">
+                <div class="form-group col-sm">
+                    <label class="col-form-label col-sm" for="mail">Correo<br>
+                        <input type="text" name="mail" id="mailBD" class="form-control" placeholder="Ingrese el Correo" autofocus required>
+                    </label>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+        <input type="submit" onsubmit="return validation()" value="Eliminar Contacto"class="btn btn-primary btn-lg btn-block" >
+
+
+        <input type="button" class="btn btn-success btn-lg btn-block"value="Volver" name="B1" OnClick="location.href='http://d8696492c2b2.ngrok.io'">
+
+    </form>
+    <script>
+        alert("Debe Ingresar Todos los campos")
+        function validation(){
+            valor = document.getElementById("nombre").value;
+            if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
+                return false;
+            }
+        }
+
+    </script>
+</div>
+<script src="js/script.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

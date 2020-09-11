@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44e75f6c-e123-4713-89e2-996730987b42" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ftCPTdVEIHcRmUkkQdQjffMgPE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WebstormProjects/untitled4" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Downloads\Taller_Stefany\routes\subida" />
+      <recent name="C:\Users\Usuario\Downloads\Taller_Stefany\routes" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44e75f6c-e123-4713-89e2-996730987b42" name="Default Changelist" comment="" />
+      <created>1597027977791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597027977791</updated>
+      <workItem from="1597027982102" duration="9522000" />
+      <workItem from="1597101452032" duration="2808000" />
+      <workItem from="1597107862378" duration="9533000" />
+      <workItem from="1597188828987" duration="2077000" />
+      <workItem from="1597193547945" duration="1465000" />
+      <workItem from="1597195874269" duration="235000" />
+      <workItem from="1597373315596" duration="549000" />
+      <workItem from="1597374104405" duration="1792000" />
+      <workItem from="1597375940882" duration="1812000" />
+      <workItem from="1597377777053" duration="313000" />
+      <workItem from="1597449105262" duration="1035000" />
+      <workItem from="1597450207129" duration="40000" />
+      <workItem from="1597463348472" duration="453000" />
+      <workItem from="1597500905901" duration="30000" />
+      <workItem from="1597532848545" duration="614000" />
+      <workItem from="1598669368218" duration="5758000" />
+      <workItem from="1598738415830" duration="17321000" />
+      <workItem from="1598764106514" duration="407000" />
+      <workItem from="1598800588726" duration="1373000" />
+      <workItem from="1598806914494" duration="541000" />
+      <workItem from="1598910622246" duration="1296000" />
+      <workItem from="1598916543700" duration="1206000" />
+      <workItem from="1599009948157" duration="1287000" />
+      <workItem from="1599067692145" duration="4885000" />
+      <workItem from="1599701336255" duration="12870000" />
+      <workItem from="1599744119127" duration="3889000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1597375346653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1597375346653" />
+    <state x="406" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599701704021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="406" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599701704021" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599744151144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599744151144" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599707145105">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1599707145105" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1599711199267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1599711199267" />
+  </component>
+</project>
